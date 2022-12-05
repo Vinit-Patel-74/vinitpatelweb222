@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marvel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <img class="logo" src="img/logo.jpg" alt="Vinit" />
+
+        <nav>
+          <ul>
+            <li class="nav"><a href=".pic">HOME</a></li>
+            <li class="nav"><a href="#about">ABOUT ME</a></li>
+            <li class="nav"><a href="#contact">CONTACT ME</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="pic">
+          <img width="200px" src="img/pic1.png" alt="my picture" />
+          <h1>Vinitkumar Kishorbhai Patel</h1>
+          <p>
+            "I am an aspiring developer" <br /><span
+              class="material-symbols-outlined"
+            >
+              computer
+            </span>
+          </p>
+          <button><a href="/img/resume.docx" download="">Resume</a></button>
+          <button><a href="#contact">Contact Me</a></button>
+        </div>
+        <hr />
+
+        <!-- About Section -->
+
+        <div id="about">
+          <h1>ABOUT ME</h1>
+
+          <div class="container">
+            <p>
+              Hello, <br />
+              My name is Vinitkumar Kishorbhai Patel (Vinit). I am currently
+              pursuing my diploma in computer Programming from Seneca College. I
+              want to become a software developer.
+            </p>
+
+            <br />
+            <h3>Basic Information</h3>
+            <br />
+            <table>
+              <tr>
+                <td>Age:</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td>vpatel279@myseneca.ca</td>
+              </tr>
+              <tr>
+                <td>Language:</td>
+                <td>Hindi, Gujarati, English</td>
+              </tr>
+              <tr>
+                <td>Student Id:</td>
+                <td>166164210</td>
+              </tr>
+              <tr>
+                <td>Section:</td>
+                <td>NDD</td>
+              </tr>
+              <tr>
+                <td>Instructor Name:</td>
+                <td>Muath Alzgool</td>
+              </tr>
+            </table>
+
+            <u><h3>Academic Honesty</h3></u>
+            <p>
+              I declare that my assessment is wholly my own work in accordance
+              with Seneca Academic Policy. No part of this assessment has been
+              copied manually or electronically from any other source (including
+              web sites) except for the information supplied by the WEB222
+              instructors and / or made available in this assessment for my use.
+              I also declare that no part of this assignment has been
+              distributed to other students.
+            </p>
+
+            <p>
+              <strong
+                ><span class="material-symbols-outlined">
+                  calendar_month
+                </span></strong
+              >
+              December 2, 2022
+            </p>
+          </div>
+        </div>
+
+        <!-- Education Section -->
+
+        <div id="education">
+          <h1>Education</h1>
+          <div class="container">
+            <table class="education-table">
+              <tr>
+                <td>Primary And Secondary Education</td>
+                <td>S.F.A. Convent High School <br />2008 - 2021</td>
+              </tr>
+
+              <tr>
+                <td>Advance Diploma in Computer Programming And Analysis</td>
+                <td>Seneca College <br />2022 - 2024</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Skills Section -->
+
+        <div id="skills">
+          <h1>Skills</h1>
+          <div class="firstBox">
+            <img src="img/html.png" alt="html" class="skills" />
+            <p class="cap">HTML</p>
+            <img src="img/css.png" alt="html" class="skills" id="css" />
+            <p class="cap">CSS</p>
+            <img src="img/javascirpt.png" alt="html" class="skills" id="js" />
+            <p class="cap">JAVASCRIPT</p>
+          </div>
+          <img src="img/c.jpg" alt="html" class="skills" />
+          <p class="cap">C - Language</p>
+          <img src="img/c++.png" alt="html" class="skills" />
+          <p class="cap">C++</p>
+          <img src="img/sql.png" alt="html" class="skills" />
+          <p class="cap">SQL</p>
+          <p></p>
+        </div>
+
+        <!-- Contact Me Section -->
+
+        <div id="contact">
+          <h1>Contact Me</h1>
+
+          <div id="small">
+          <div class="left">
+            <form action="https://httpbin.org/post " method="post">
+              <label for="name">Name: </label
+              ><input
+                type="text"
+                placeholder="Enter your name here"
+                required
+              /><br />
+              <label for="email">Email: </label
+              ><input
+                type="email"
+                name="mail-address"
+                placeholder="vpa123@gmail.com"
+                required
+              /><br />
+              <label for="address">Street Address: </label
+              ><input
+                type="text"
+                placeholder="1750 finch avenue east"
+                required
+              /><br />
+              <label for="city">City: </label
+              ><input type="text" placeholder="Toronto" required /><br />
+              <label for="province">Province: </label
+              ><input
+                list="browsers"
+                name="browser"
+                id="browser"
+                placeholder="Ontario"
+                required
+              />
+              <datalist id="browsers">
+                <option value="Ontario"></option>
+                <option value="Alberta"></option>
+                <option value="Nova-Scotia"></option>
+                <option value="British Columbia"></option>
+                <option value="Manitoba"></option>
+                <option value="New Brunswick"></option>
+                <option value="Newfoundland and Labrador"></option>
+                <option value="Northwest Territories"></option>
+                <option value="Nunavut"></option>
+                <option value="Prince Edward Island"></option>
+                <option value="Quebec"></option>
+                <option value="Saskatchewan"></option>
+                <option value="Yukon"></option></datalist
+
+              ><br />
+              <div class="form-control">
+                <label class="block" for="pcode">Postal Code</label>
+                <input type="text" name="pcode" id="pcode" placeholder="A1A1A1" >
+                <small class="error-msg">Error Massege</small>
+            </div>
+
+
+              <div class="form-control form-control-query">
+                <label>Query Type:</label>
+        
+                
+                <input class="query"  type="radio" id="job" name="query" value="job" checked>
+                        <label for="job">Job Offer</label>
+                     
+                
+                    
+                        <input class="query" type="radio" id="school" name="query" value="school">
+                        <label for="school">School</label>
+               
+                
+                
+                        <input class="query" type="radio" id="other" name="query" value="other">
+                        <label for="other">Other</label>
+        
+      
+                    <input class="query-field" type="text" name="query" id="otherInput" placeholder="Please specify the query type">
+
+              <br><label for="message">Message: </label
+              ><textarea
+                name="comment"
+                form="usrform"
+                rows="5"
+                cols="30"
+                placeholder="Enter Your Text Here"
+                required
+              ></textarea
+              ><br />
+              <label for="proffession">proffession: </label
+              ><input
+                type="text"
+                placeholder="Student / Engineer"
+                required
+              /><br />
+              <input class="pointer" type="submit" value="SUBMIT" />
+              <input class="pointer" type="reset" value="RESET" />
+            </form>
+          </div>
+        </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <h3>ありがとうございました</h3>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

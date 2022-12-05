@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* media queries */
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 1140px) {
+  html {
+    font-size: 18px;
+  }
+
+  #content {
+    width: 90vw;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact,
+  .container {
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 930px) {
+  html {
+    font-size: 14px;
+  }
+
+  #content {
+    width: 900px;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 750px) {
+  html {
+    font-size: 12px;
+    overflow-block: none;
+  }
+
+  #content {
+    width: 90vw;
+    overflow-block: none;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    margin: auto;
+    width: 80vw;
+    overflow-block: none;
+  }
+}
+@media all and (max-width: 650px) {
+  html {
+    font-size: 10px;
+    overflow-block: none;
+  }
+
+  #content {
+    width: 90vw;
+    overflow-block: none;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    margin: auto;
+    width: 80vw;
+    overflow-block: none;
+  }
+}
+@media all and (max-width: 520px) {
+  html {
+    font-size: 8px;
+    overflow-block: none;
+  }
+
+  #content {
+    width: 90vw;
+    overflow-block: none;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    margin: auto;
+    width: 80vw;
+    overflow-block: none;
+  }
+}
+@media all and (max-width: 420px) {
+  html {
+    font-size: 6px;
+    overflow-block: none;
+  }
+
+  #content {
+    width: 90vw;
+    overflow-block: none;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    margin: auto;
+    width: 80vw;
+    overflow-block: none;
+  }
+}
+@media all and (max-width: 320px) {
+  html {
+    font-size: 6px;
+    overflow-block: none;
+  }
+
+  #content {
+    width: 90vw;
+    overflow-block: none;
+    margin: auto;
+  }
+
+  #pic,
+  #about,
+  #education,
+  #skills,
+  #contact {
+    margin: auto;
+    width: 80vw;
+    overflow-block: none;
+  }
+}
+
+body {
+  background-color: #BDBDBD;
+}
+
+hr {
+  margin-top: 3rem;
+  border-color: #eeeeee;
+}
+
+h1 {
+  padding-bottom: 0.75rem;
+  color: #eeeeee;
+}
+
+#content {
+  width: 90vw;
+  margin: auto;
+  background-color: #222831;
+}
+
+header {
+  background-color: #00adb5;
+  font-family: "Marvel", sans-serif;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 2.9rem;
+  float: left;
+  border-radius: 0.5rem;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.9rem 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: bold;
+  padding: 0.75rem;
+}
+
+nav a:hover {
+  background-color: #eeeeee;
+  color: #222831;
+  text-decoration: underline;
+  border-radius: 2.25rem;
+}
+
+/* home Section */
+
+#pic {
+  margin: auto;
+  padding-top: 7.5rem;
+  width: 55rem;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+#pic img {
+  border-radius: 5rem;
+  width: 10rem;
+}
+
+#pic h1,
+p {
+  color: #eeeeee;
+  margin: 1rem;
+}
+
+#pic button {
+  border-radius: 2.25rem;
+  background-color: #eeeeee;
+  color: #222831;
+  height: 1.5rem;
+  width: 4.5rem;
+  border: none;
+}
+
+#pic button :hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+button a {
+  text-decoration: none;
+  color: #222831;
+}
+
+/* About Me Section */
+
+#about {
+  margin: auto;
+  padding-top: 4rem;
+  width: 55rem;
+  text-align: center;
+  color: #eeeeee;
+}
+
+#about h1 {
+  padding-bottom: 2.5rem;
+}
+
+.container table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+td {
+  padding: 0.75rem;
+  border: solid 0.01rem #eeeeee;
+}
+
+/* Education Section */
+
+#education {
+  margin: auto;
+  padding-top: 4rem;
+  width: 55rem;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.education-table {
+  padding: 1.5rem;
+}
+
+#skills {
+  margin: auto;
+  padding-top: 2rem;
+  width: 55rem;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.skills {
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+#css {
+  width: 4rem;
+}
+#js {
+  width: 8rem;
+}
+
+.cap {
+  display: none;
+}
+
+.firstBox {
+  padding-left: 2rem;
+}
+
+/* Contact Section */
+
+#contact {
+  margin: auto;
+  padding-top: 4rem;
+  width: 55rem;
+  text-align: center;
+  color: #eeeeee;
+}
+
+#small{
+  width: 50vw;
+  margin: auto;
+}
+
+#contact label {
+  display: inline-block;
+  width: 7.75rem;
+  text-align: left;
+}
+input {
+  margin: 0.35rem;
+  margin-left: 3.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.error-msg{
+  display: none;
+}
+
+textarea {
+  margin-left: 3.75rem;
+}
+
+.pointer {
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+  height: 1.5rem;
+}
+.pointer:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+  color: #141010;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
+
+.query {
+  width: auto;
+  margin-left: .8rem;
+}
+.query-field {
+  display: none;
+  margin-top: 1rem;
+}
+
+.query-field-show{
+  display: block;
+  margin-left: 50%;
+
+}
+.footer {
+  margin: auto;
+  padding-top: 4rem;
+  width: 55rem;
+  text-align: center;
+  color: #eeeeee;
+  padding-bottom: 1.5rem;
+}
+
